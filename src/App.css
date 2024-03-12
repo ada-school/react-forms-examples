@@ -1,0 +1,37 @@
+#root {
+  max-width: 370px;
+  margin: 0 auto;
+  padding: 2rem;
+  
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.twoColumns {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+input {
+  border: solid 1px;
+  border-radius: 5px;
+  height: 20px;
+  /* width: 100%; */
+}
+
+div.twoColumns div {
+  width: 50%;
+}
+
+button{
+  color: #23d5e2;
+}
